@@ -1,0 +1,21 @@
+
+.hero-section {
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.hero-section::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
+.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
