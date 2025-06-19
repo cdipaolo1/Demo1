@@ -1,0 +1,17 @@
+
+.hero {
+  background: url('https://cdn.pixabay.com/photo/2020/12/18/11/35/bmw-5839631_1280.jpg') no-repeat center center;
+  background-size: cover;
+  height: 60vh;
+  position: relative;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
